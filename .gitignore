@@ -7,6 +7,8 @@
 *.dll
 *.so
 *.dylib
+bin
+testbin/*
 
 # Test binary, built with `go test -c`
 *.test
@@ -16,6 +18,10 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+!vendor/**/zz_generated.*
 
 # Go workspace file
-go.work
+.idea
+*.swp
+*.swo
+*~
